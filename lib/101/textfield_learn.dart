@@ -33,7 +33,7 @@ class _TextFieldLearnState extends State<TextFieldLearn> {
     return AnimatedContainer(
       duration: const Duration(seconds: 1),
       height: 10,
-      width: 10.0 * (currentLength ?? 0),
+      width: 10.0 * (currentLength),
       color: Colors.green,
     );
   }
