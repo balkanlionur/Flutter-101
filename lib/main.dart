@@ -13,6 +13,7 @@ import '101/stack_learn.dart';
 import '101/statefull_learn.dart';
 import '101/statefull_life_cycle_learn.dart';
 import '101/textfield_learn.dart';
+import 'demos/color_demos_view.dart';
 import 'demos/demos_view.dart';
 import 'demos/stack_demo_view.dart';
 
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.transparent,
               elevation: 0)),
       home: //const StatefullLifeCycleLearn(message: "OnurrB"),
-          const TextFieldLearn(),
+          const ColorDemos(),
     );
   }
 }
