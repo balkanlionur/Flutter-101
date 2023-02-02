@@ -11,10 +11,10 @@ class CardLearn extends StatelessWidget {
         children: const [
           Card(
             margin: ProjectMargins.cardMargin,
-            child: const SizedBox(
+            child: SizedBox(
               height: 100,
               width: 300,
-              child: Center(child: Text('Ali')),
+              child: Center(child: Text('Onur')),
             ),
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
           ),
@@ -24,7 +24,7 @@ class CardLearn extends StatelessWidget {
               height: 100,
               width: 300,
               child: Center(
-                child: Text('Ali'),
+                child: Text('Balkanli'),
               ),
             ),
           ),

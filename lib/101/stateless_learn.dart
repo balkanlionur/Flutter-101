@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class StatelessLearn extends StatelessWidget {
   const StatelessLearn({Key? key}) : super(key: key);
-  final String textt = 'Veli';
+  final String textt = 'Onur';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,9 +10,9 @@ class StatelessLearn extends StatelessWidget {
       body: Column(
         children: [
           TitleTextWidget(text: textt),
-          const TitleTextWidget(text: 'veli2'),
-          const TitleTextWidget(text: 'veli3'),
-          const TitleTextWidget(text: 'veli4'),
+          const TitleTextWidget(text: 'Onur2'),
+          const TitleTextWidget(text: 'Onur3'),
+          const TitleTextWidget(text: 'Onur4'),
         ],
       ),
     );
