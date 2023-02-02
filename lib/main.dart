@@ -7,6 +7,9 @@ import '101/column_row_learn.dart';
 import '101/container_sized_box_learn.dart';
 import '101/image_learn.dart';
 import '101/list_tile.dart';
+import '101/list_view.dart';
+import '101/list_view_builder.dart';
+import '101/navigation_learn.dart';
 import '101/page_view_learn.dart';
 import '101/scaffold_learn.dart';
 import '101/stack_learn.dart';
@@ -15,6 +18,8 @@ import '101/statefull_life_cycle_learn.dart';
 import '101/textfield_learn.dart';
 import 'demos/color_demos_view.dart';
 import 'demos/demos_view.dart';
+import 'demos/my_collections.dart';
+import 'demos/my_collections_v2.dart';
 import 'demos/stack_demo_view.dart';
 
 void main() {
@@ -38,7 +43,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.transparent,
               elevation: 0)),
       home: //const StatefullLifeCycleLearn(message: "OnurrB"),
-          const ColorDemos(),
+          const NavigationLearn(),
     );
   }
 }
